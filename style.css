@@ -80,19 +80,16 @@ nav ul li a {
 
 nav ul li a::after {
   content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
   background: #ffffff;
-  width: 0;
-  height: 0;
-  position: absolute;
-  bottom: -5px;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: width 0.3s;
+  transition: 0.5s;
+  margin: auto;
 }
 
 nav ul li a:hover::after {
   width: 50%;
-  height: 3px;
 }
 
 /* TEXT-HERO */
